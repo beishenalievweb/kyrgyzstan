@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    background: url("./../img/fon.jpg") no-repeat bottom center/cover ;
+    backdrop-filter: blur(3px);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.content {
+    display: none;
+}
+
+#tab1:checked ~ .content1 {
+    display: flex;
+}
+
+.content1 img {
+    width: 800px;
+    height: 500px;
+    padding: 30px 200px;
+}
+
+.content2 img {
+    width: 800px;
+    height: 500px;
+    padding: 30px 200px;
+}
+
+.content3 img {
+    width: 800px;
+    height: 500px;
+    padding: 30px 200px;
+}
+
+.content4 img {
+    width: 800px;
+    height: 500px;
+    padding: 30px 200px;
+}
+
+.content5 img {
+    width: 800px;
+    height: 500px;
+    padding: 30px 200px;
+}
+
+.content6 img {
+    width: 800px;
+    height: 500px;
+    padding: 30px 200px;
+}
+
+.content7 img {
+    width: 800px;
+    height: 500px;
+    padding: 30px 200px;
+}
+
+#tab2:checked ~ .content2 {
+    display: flex;
+
+}
+
+#tab3:checked ~ .content3 {
+    display: flex;
+
+}
+
+#tab4:checked ~ .content4 {
+    display: flex;
+
+}
+
+#tab5:checked ~ .content5 {
+    display: flex;
+
+}
+
+#tab6:checked ~ .content6 {
+    display: flex;
+
+}
+
+#tab7:checked ~ .content7 {
+    display: flex;
+
+}
+
+input {
+    display: none;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link label {
+    padding: 10px 20px;
+    font-family: 'Montserat', sans-serif;
+    font-size: 18px;
+    background: rgb(246, 148, 27);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 0, 0, 0.2);
+    margin: 0 20px;
+    box-shadow: 0 2px  5px rgba(0, 0, 0, 0.5);
+    color: white;
+    transition: .4s;
+}
+.link label:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+}
+.text {
+    font-family: 'Bungee Spice', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.text span a{
+    transition: .7s;
+    box-shadow: 0 2px  5px rgba(0, 0, 0, 0.5);
+}
+.text a:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
